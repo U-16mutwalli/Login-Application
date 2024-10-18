@@ -1,0 +1,76 @@
+.employee-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px; /* Maximum width of the form */
+    margin: 100px auto; /* Center align form */
+    padding: 70px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Background color of the form */
+  }
+  
+  .employee-form h2 {
+    margin-bottom: 20px;
+    color: #333; /* Title color */
+  }
+  
+  .form-group {
+    width: 100%; /* Full width for each form group */
+    margin-bottom: 15px; /* Space between form groups */
+  }
+  
+  label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+    color: #555; /* Label color */
+    
+  }
+  
+  input, select {
+    width: 100%; /* Full width of input and select */
+    padding: 10px; /* Padding inside inputs */
+    border-radius: 4px; /* Rounded corners */
+    border: 1px solid #ccc; /* Border color */
+    font-size: 1rem; /* Font size */
+    transition: border-color 0.3s; /* Transition effect for border */
+  
+  }
+  
+  input:focus, select:focus {
+    border-color: #4CAF50; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  button {
+    padding: 10px; /* Padding inside button */
+    background-color: #4CAF50; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Transition effect */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker button on hover */
+  }
+  
+  .error {
+    color: red; /* Error message color */
+    font-size: 0.9rem; /* Error message font size */
+    margin-top: 5px; /* Space above error message */
+  }
+  @media (max-width: 600px) {
+    .employee-form {
+      width: 90%; /* Make form take up more width on smaller screens */
+    }
+    
+    .dashboard {
+      padding: 10px; /* Adjust padding */
+    }
+  }
+  

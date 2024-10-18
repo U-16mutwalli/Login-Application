@@ -1,0 +1,46 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background for dashboard */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  h2 {
+    color: #333; /* Header color */
+    margin-bottom: 20px; /* Space below the header */
+  }
+  
+  .employee-table {
+    width: 100%; /* Full width for the table */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 10px; /* Space above the table */
+  }
+  
+  .employee-table th,
+  .employee-table td {
+    padding: 12px; /* Padding for cells */
+    text-align: left; /* Align text to the left */
+    border: 1px solid #ccc; /* Border for cells */
+    color: black;
+  }
+  
+  .employee-table th {
+    background-color: #4CAF50; /* Header background color */
+    color:black; /* Header text color */
+  }
+  
+  .employee-table tbody tr:hover {
+    background-color: #f2f2f2; /* Highlight row on hover */
+  }
+  
+  .employee-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row color */
+  }
+  
+  .employee-table tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* Odd row color */
+  }
+  
